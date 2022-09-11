@@ -1,7 +1,9 @@
 body { 
-    background: #000;
+    background: #101010;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #fff;
-    font: bold;
+    font-style: italic;
 
 }
 
@@ -13,6 +15,7 @@ header {
     border: 15px solid #00529b;
     border-radius: 15px;
     transition: all 0.5s;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
 
 }
 
@@ -21,12 +24,30 @@ header:hover {
 }
 
 header h1 {
+    position: relative;
+    font-size: 40px;
     text-align: center;
+    letter-spacing: 2px;
+
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.1s;
+    
+
+}
+
+header h1:hover{
+    top : 0.5px;
+    text-shadow: none;
+    
+}
+
+main h2 {
+    letter-spacing: 1px;
 }
 
 footer {
     background-image: linear-gradient(
-        to left, #000, #00529b
+        to left, #101010, #00529b
         );
     margin: 30px;
     padding: 5px;
