@@ -7,14 +7,34 @@ body {
 
 header {
     background: #FFC20E;
+    
     margin: 30px;
     padding: 5px;
     border: 15px solid #00529b;
+    border-radius: 15px;
+    transition: all 0.5s;
 
 }
 
+header:hover {
+    border-radius: 0%;
+}
+
+header h1 {
+    text-align: center;
+}
+
 footer {
-    background: #00529b;
+    background-image: linear-gradient(
+        to left, #000, #00529b
+        );
     margin: 30px;
     padding: 5px;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+footer:hover {
+    border-radius: 0%;
+
 }
